@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a:hover {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+        .box:hover {
+            width: 200px;
+            transition: 0.5s;
+        }
+        .box:active {
+            width: 300px;
+            background: yellowgreen;
+        }
+
+        input {
+            width: 100px;
+            border: 1px solid gray;
+            padding: 5px 10px;
+            outline: none;
+            transition: 0.6s;
+        }
+
+        input:focus {
+            border-color: red;
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body>
+<!-- hover: 지정공간에 마우스를 올리면 변한다 -->
+<!-- active: 클릭하면 변화가 나옴 -->
+<!-- focus: input 창에 클릭을 하면 늘어나고 커서가 밖에 찍히면 줄어든다 -->
+<!-- .box를 하면<div class="box"></div>
+ 로 나온다, div가 기본으로 지정 -->
+<a href="#">Google로 이동!</a>
+
+<div class="box"></div>
+
+<br>
+
+<input type="text">
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .fruits > li:nth-child(4) {
+            color: orange;
+        }
+        .fruits > li:nth-child(even) {
+            color: blue;
+        }
+        .fruits > li:nth-child(odd) {
+            color: red;
+        }
+        /* n키워드 사용 시 0부터 해석, n을 이용해서 불규칙적으로 선택 가능*/
+        .fruits > li:nth-child(3n + 1) {
+            color: violet;
+        }
+
+        .food p:nth-child(1) {
+            font-style: italic;
+        }
+
+        .food p:nth-of-type(2) {
+            font-style: italic;
+        }
+
+        .box-group div div:nth-child(1) {
+            color: red;
+            font-weight: bold;
+        }
+
+        .fruits li:not(.orange) {
+            list-style: none;
+        }
+
+    </style>
+
+
+<!-- nth-child 특정 부분 지정, even 짝수지정, odd 홀수 지정 -->
+<!-- .fruits li:not(.orange): orange 가 아닌 애들은 제외해달라 -->
+</head>
+<body>
+    
+
+<ul class="fruits">
+        <li>딸기</li>
+        <li>사과</li>
+        <li class="orange">오렌지</li>
+        <li>망고</li>
+        <li>바나나</li>
+        <li>복숭이</li>
+        <li>파인애플</li>
+
+    </ul>
+
+        <hr>
+        <!-- food의 첫번째 자식이 p가 아니기 때문에
+        지목해서 스타일을 지정할 수 없습니다.
+         -->
+         <!-- nth-of-type 을 사용하면 
+        특정 태그 지정해서 스타일 가능,
+        같은 종류의 요소 중 n번쨰 요소를 지목 -->
+        <div class="food">
+            <div>짜장면</div>
+            <p>볶음밥</p>
+            <p>닭강정</p>
+            <span>짬뽕</span>
+        </div>
+
+
+        <hr>
+
+        <div class="box-group">
+            <div>1</div>
+            <div>2</div>
+            <div>3
+                <div>3-1</div>
+                <div>3-2</div>
+                <div>3-3</div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>
