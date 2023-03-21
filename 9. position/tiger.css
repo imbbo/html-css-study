@@ -1,0 +1,203 @@
+
+@import url(../common.css);
+
+/* body {
+    background: #666;
+    font-size: 14px;
+    font-family: serif;
+} */
+/* 휴면모음T */
+/* div header h1 {
+    background: rgb(13, 13, 76);
+    margin: 0 20%;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+    line-height: 150px;
+
+}
+
+div header h1 strong {
+    font-size: 70px;
+    color: white;
+}
+
+div header h1 em {
+    font-size: 60px;
+    color: white;
+}
+
+div header h1 span {
+    font-size: 50px;
+    
+}
+
+div .container {
+    background: gray;
+    width: 60%;
+    height: 60%;
+    margin: 0% 20%;
+    
+}
+
+div div ul li a {
+    text-decoration: underline;
+    color: purple;
+    width: 600px;
+    height: 40px;
+    line-height: 30px;
+    float: left;
+    
+} */
+
+
+
+
+
+/* div div ul {
+    background: #a59e9e;
+    width: 10%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+div div ul li a {
+    text-decoration: underline;
+    color: black;
+    line-height: 30px;
+    
+}
+
+div div .content h2 {
+    color: rgb(170, 170, 31);
+    font-size: 30px;
+    font-weight: bold;
+    background: rgb(67, 10, 10);
+    line-height: 50px;
+    width: 40%;
+
+} */
+
+/* base style */ 
+body {
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: '굴리', 'Gulim', serif;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* header style */
+header {
+    background: #123456;
+    padding: 10px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc0;
+    text-align: center;
+    font-family: 'Jua', cursive;
+}
+
+header h1 strong {
+    font-size: 3em;
+    color: #fff;
+}
+
+header h1 span {
+    font-size: 1.5em;
+}
+
+header h1 em {
+    font-size: 2em;
+    color: #ccc;
+}
+
+/* end geader style */
+
+/* begin container style */
+
+.container {
+    background: #ccc;
+}
+
+.container .menu {
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+
+.container .menu li {
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.container .menu li a:hover {
+    color: #662;
+    border-bottom: 1px dashed #662;
+}
+
+
+.container .content {
+    background: #fff;
+    float: right;
+    width: 80%;
+}
+
+.container .content h2 {
+    background: #800;
+    color: #ee0;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-family: '궁서', cursive;
+}
+
+.container .content p {
+    padding: 20px;
+    text-align: justify;
+}
+
+/* footer style */
+
+footer {
+    background: #aaa;
+    padding: 10px 20px;
+}
+
+footer address {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
